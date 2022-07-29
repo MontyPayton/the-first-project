@@ -1,0 +1,595 @@
+/* .section-iner-menu, */
+
+
+@media (max-width:1245px) {
+    .header-centr {
+
+        padding-top: 7em;
+    }
+
+    h1 {
+
+        font-size: 3em;
+        letter-spacing: 0.5px;
+
+    }
+
+}
+
+@media (max-width:1030px) {
+
+    .img-logo {
+        background-color: rgb(173, 173, 173, 1);
+        border-radius: 13px;
+    }
+
+    h1 {
+
+        font-size: 2.8em;
+        letter-spacing: 0.3px;
+
+    }
+
+
+    .header-menu-wrapper {
+        margin-left: 73px;
+    }
+
+    .grid-item-1 h3 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .img-pwa,
+    .img-lifitem {
+        width: 112%;
+    }
+
+    .investment button {
+        width: 200px;
+    }
+
+}
+
+.btn {
+    width: 15em;
+}
+
+.carousel .slick-arrow.slick-prev {
+    left: 20px;
+}
+
+.carousel .slick-arrow.slick-next {
+    right: 20px;
+}
+
+.start-content-block p {
+    font-size: 0.7em;
+    line-height: 17px;
+}
+
+.start-content-block h4 {
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.block-blog p {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.investment p {
+    font-size: 12px;
+    line-height: 18px
+}
+
+
+
+@media (max-width:990px) {
+    .header-centr {
+
+        display: block;
+    }
+
+
+
+    .imedg {
+        width: 100%;
+    }
+
+    .like {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .like-btn {
+        text-align: center;
+    }
+
+    .pay {
+        text-align: center;
+    }
+
+    .btn {
+        margin-left: 30px;
+    }
+
+    .img-pwa,
+    .img-lifitem {
+        width: 130%;
+    }
+
+    .header-centr img {
+        width: 85%;
+    }
+
+
+
+
+
+}
+
+@media (max-width:884px) {
+    .btn {
+        display: none;
+    }
+
+    .section-header-menu {
+        justify-content: space-between;
+    }
+
+    .header-menu-wrapper {
+
+
+        flex-basis: 0;
+        margin-left: 0;
+    }
+
+    .block-3-content-main1,
+    .block-3-content-main2 {
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .block-3-content-main1 {
+        flex-direction: column-reverse;
+    }
+
+    .textUser {
+
+        width: 726px;
+        height: 310px;
+
+    }
+
+    .uzerJob {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .uzerName {
+        line-height: 15px;
+    }
+
+    .uzerText {
+        font-size: 14px;
+    }
+}
+
+.block-storefront-content {
+    padding-top: 50px
+}
+
+.start-content-block img {
+    padding-top: 24px;
+}
+
+
+
+@media (max-width:768px) {
+
+    .header-menu-wrapper {
+
+
+        flex-basis: 0;
+        margin-left: 0;
+    }
+
+    .nav-button {
+        display: block;
+
+    }
+
+    .start-content-block h4 {
+        padding-bottom: 6px;
+        line-height: 14px;
+    }
+
+    .start-content-block img {
+        padding-top: 19px;
+    }
+
+
+    .section-header-menu {
+        justify-content: space-between
+    }
+
+    .mobail-nav-activ {
+        display: block;
+    }
+
+    .block-2-grid {
+        width: 53%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 3em;
+    }
+
+    .header-menu-wrapper {
+        display: none;
+    }
+
+    .investment button {
+        width: 150px;
+    }
+
+    .img-pay {
+        width: 5em;
+    }
+
+    .grid-item-left h3 {
+        font-size: 27px;
+        line-height: 32px;
+        letter-spacing: 0.46px;
+    }
+
+    .grid-item-left p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .grid-item-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .grid-item-p {
+
+        font-size: 15px;
+        line-height: 3px;
+    }
+
+    .block-full-control-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-gap: 1em;
+    }
+
+    .block-storefront-content-mainTop,
+    .block-storefront-content-mainTop {
+        display: block;
+    }
+
+    .img-pwa,
+    .img-lifitem {
+        display: none;
+    }
+
+    .pwa-text,
+    .lifitem {
+        padding: 44px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .textUser {
+        width: 623px;
+        height: 268px;
+    }
+
+    .uzerText {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 50px 75px 30px;
+    }
+
+    .review-content-header h3,
+    .head-investment h3,
+    .pwa-text h3,
+    .lifitem h3,
+    .launch-content h3,
+    .blog-head h4,
+    .start-content-hed h3,
+    h2 {
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.68px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .imgBlockManage {
+        padding-bottom: 25px;
+        width: 73%;
+    }
+
+    .block-manage-text {
+        padding-top: 34px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:720px) {
+
+    .pay {
+        font-size: 13px;
+
+    }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    .uvodo {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .block-blog p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .like {
+        width: 92%;
+    }
+
+
+    .footer-mobile {
+        display: block;
+    }
+
+    .copyright {
+        padding: 60px 20px 10px;
+    }
+
+
+
+
+}
+
+@media (max-width:687px) {
+
+    .admin,
+    .shop {
+        width: 10em;
+    }
+
+    .block-storefront-content {
+        padding-top: 100px;
+
+    }
+
+    .carousel .slick-arrow.slick-next {
+        right: 80px;
+    }
+
+    .carousel .slick-arrow.slick-prev {
+        left: 80px;
+    }
+
+    .head-investment p {
+        margin-bottom: 30px;
+    }
+
+    .types-investments {
+        padding-bottom: 50px;
+    }
+
+    .start-content-item {
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .start-content-item div+div {
+        margin-left: 0px;
+    }
+
+
+
+    .header-centr img {
+        width: 100%;
+    }
+
+    .img-pay {
+        width: 8em;
+    }
+
+    .content-investment {
+        display: block;
+    }
+
+    .investment {
+        padding-left: 100px;
+        width: 100%;
+    }
+
+    .regular,
+    .enterprise {
+        background-color: #f7f3f3;
+    }
+
+    .content-investment-wrapper {
+        padding-bottom: 0px;
+
+    }
+
+    .like {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:595px) {
+
+    .shop,
+    .admin {
+        width: 8em;
+    }
+
+
+    .block-full-control-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-item-left {
+        grid-row: 1;
+    }
+
+    .block-blog p {
+        font-size: 11px;
+        line-height: 15px;
+
+    }
+
+    .textUser {
+        width: 100%;
+    }
+
+    .start-content-block {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:500px) {
+    .pay {
+        font-size: 9px;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    .shop {
+        width: 100px;
+        font-size: 11px;
+    }
+
+    .admin,
+    .shop {
+        font-size: 11px;
+    }
+
+
+
+    .like .grid-item-1 h3 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .grid-item-1 p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .img-pay {
+        width: 4em;
+    }
+
+    .footer-body-left {
+        justify-content: space-around;
+        margin-right: 138px;
+    }
+
+
+    .carousel .slick-arrow.slick-prev {
+        left: 0px;
+        margin: 15px;
+    }
+
+    .carousel .slick-arrow.slick-next {
+        right: 0px;
+        margin: 15px;
+    }
+
+    .block-blog p {
+        font-size: 9px;
+    }
+}
+
+
+@media (max-width:460px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .pay {
+        font-size: 8px;
+    }
+
+    .uvodo {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .review-content-header h3,
+    .head-investment h3,
+    .pwa-text h3,
+    .lifitem h3,
+    .launch-content h3,
+    .blog-head h4,
+    .start-content-hed h3,
+    h2 {
+        font-size: 29px;
+        line-height: 28px;
+    }
+
+    .blog-head p {
+        padding: 10px;
+    }
+
+    .textUser {
+        width: 100%;
+    }
+
+    .uzerText {
+        font-size: 11px;
+        line-height: 17px
+    }
+
+    .footer-submenu a {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding: 20px;
+    }
+
+    .footer-menu li+li {
+        margin-left: 1em;
+    }
+
+    .footer-submenu li+li {
+        margin-left: 0px;
+    }
+
+    .footer-menu {
+        padding-inline-start: 1em;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer-body-left {
+        margin-right: 5em;
+    }
+
+
+}
